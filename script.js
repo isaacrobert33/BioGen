@@ -21,7 +21,7 @@ function generate() {
   if (fname.length <1) {
     return;
   }
-  var bio = fname+" "+lname+" is a/an "+title+" who works with "+workwith+" as a/an "+workas+". \n Born in "+dob+" Currently Reside in "+reside+". \n"+fname+" holds a "+deg+" in "+area+" from "+uni+". \n"+fname+" is a trained/certified/awarded in "+cert+". "+fname+" Has Overcame "+over+". \n"+fname+" Stands up for "+chal+". \n"+fname+" personal traits and qualities "+traits+". "+fname+" always does "+always+". "+fname+" is best known for "+bkf+".\n A quote that "+fname+" lives by is "+quote
+  var bio = fname+" "+lname+" is a/an "+title+" who works with "+workwith+" using his/her "+workas+" skills. \n Born in "+dob+" Currently Reside in "+reside+". \n"+fname+" holds a "+deg+" in "+area+" from "+uni+". \n"+fname+" is a trained/certified/awarded in "+cert+". "+fname+" Has Overcame "+over+". \n"+fname+" Stands up for "+chal+". \n"+fname+" personal traits and qualities "+traits+". "+fname+" always does "+always+". "+fname+" is best known for "+bkf+".\n A quote that "+fname+" lives by is "+quote
   document.getElementById("input_page").style.display = "none";
   document.getElementById("bio_page").style.display = "block";
   document.getElementById("bio_text").innerHTML = bio;
