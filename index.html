@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>Biography - Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="script.js">
+  </script>
+  <div class="header">
+    <span>BIOGRAPHY GENERATOR</span>
+  </div>
+  <br><br><br>
+  <div id="input_page">
+  <h2>Write your Biography just by filling <br>in the text boxes below.</h2>
+  <p style="text-align: center;">When you are finished <br>click on the "Create Biography" button at the<br> bottom of the form to generate your Biography.</p>
+  <br>
+  
+  <div class="inputfield">
+    <div id="bio">Short Biography Autogenerator</div>
+    <i style="margin-left: 10px">The biography is about:</i><br>
+    <p id="label">First name:</p>
+    <input id="fname" type="text" />
+    <p id="label">Last name:</p>
+    <input id="lname" type="text" />
+    <p id="label">Title:</p>
+    <i style="margin-left: 10px">(Profession Title)</i><br>
+    <input id="title" type="text" />
+    <p id="label">Date & Place of birth</p>
+    <i style="margin-left: 10px">(Born on dd mm yy in California)</i><br>
+    <input id="dob" type="text" />
+    <p id="label">Worked with:</p>
+    <i style="margin-left: 10px">(Worked with KYC LTD)</i><br>
+    <input id="workwith" type="text" />
+    <p id="label">Worked as:</p>
+    <i style="margin-left: 10px">(Worked as an account manager)</i><br>
+    <input id="workas" type="text" />
+    <p id="label">Current Residence:</p>
+    <input id="reside" type="text" />
+    <p id="label">Degree:</p>
+    <i style="margin-left: 10px">(Bachelor of Science)</i><br>
+    <input id="deg" type="text" />
+    <p id="label">Area of study:</p>
+    <i style="margin-left: 10px">(Chattered Accounting)</i><br>
+    <input id="area" type="text" />
+    <p id="label">Graduated from:</p>
+    <i style="margin-left: 10px">(Cambridge University)</i><br>
+    <input id="uni" type="text" />
+    <p id="label">Certification/Awards:</p>
+    <input id="cert" type="text">
+    <p id="label">Overcame:</p>
+    <i style="margin-left: 10px">(Obstacles overcame)</i><br>
+    <input id="over" type="text" />
+    <p id="label">Challenged:</p>
+    <i style="margin-left: 10px">(Stands up for)</i><br>
+    <input id="chal" type="text">
+    <p id="label">Personal Traits</p>
+    <i style="margin-left: 10px">(Personal traits and qualities)</i><br>
+    <input id="traits" type="text"/>
+    <p id="label">Always does:</p>
+    <input id="always" type="text"/>
+    <p id="label">Best known for:</p>
+    <input id="bkf" type="text" />
+    <p id="label">Favorite Quote:</p>
+    <i style="margin-left: 10px">(A quote you live by)</i><br>
+    <input id="quote" type="text"/>
+    <br>
+    <button id="submit" onclick="generate()">Create Biography</button>
+  </div>
+  <br>
+    <p style="text-align:center;font-weight:bold;">Copy and paste the generated biography<br> to a word processing program. <br>
+      Format it with a font size and style of your choice.</p>
+  </div>
+  
+  <div id="bio_page">
+    <br>
+    <h2 id="bio_text"></h2>
+    <br>
+    <button id="reload" onclick="location.reload();">Start over</button>
+    <p id="copytext" style="text-align:center;font-weight:bold;display: none;">Copy and paste the generated biography<br> to a word processing program. 
+      <br>Format it with a font size and style of your choice.</p>
+  </div>
+  </body>
+</html>
