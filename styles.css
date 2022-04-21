@@ -67,7 +67,7 @@ h2 {
   
 }
 .inputfield input:focus {
-  border-left: 6px solid rgb(10, 10, 80);
+  border-left: 6px solid rgb(10, 10, 160);
 }
 
 #submit {
